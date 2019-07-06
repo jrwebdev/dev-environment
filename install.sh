@@ -11,3 +11,5 @@ curl -o- https://raw.githubusercontent.com/jrwebdev/dev-environment/master/.zshr
 curl -o- https://raw.githubusercontent.com/jrwebdev/dev-environment/master/.hyper.js > ~/.hyper.js
 
 npm install --global pure-prompt
+
+mkdir ~/web
