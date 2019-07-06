@@ -39,7 +39,7 @@ fi
 zmodload -i zsh/complist
 
 #source ~/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source ~/zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 source <(antibody init)
 antibody bundle zdharma/fast-syntax-highlighting
