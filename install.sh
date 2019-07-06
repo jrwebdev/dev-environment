@@ -2,6 +2,8 @@
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 
 brew install yarn
+brew install getantibody/tap/antibody
+brew install zsh-autosuggestions
 brew cask install hyper
 brew cask install visual-studio-code
 brew cask install google-chrome
