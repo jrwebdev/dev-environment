@@ -18,9 +18,15 @@ zstyle ':completion:::::' completer _expand _complete _ignored _approximate # en
 bindkey '^[[3~' delete-char
 bindkey '^[3;5~' delete-char
 
-alias branches='git branch --sort=-committerdate'
 alias zshrc='vim ~/.zshrc && update'
 alias update='. ~/.zshrc'
+alias config-restore='curl -o- https://raw.githubusercontent.com/jrwebdev/dev-environment/master/.zshrc > ~/.zshrc &&
+curl -o- https://raw.githubusercontent.com/jrwebdev/dev-environment/master/.hyper.js > ~/.hyper.js && update'
+
+alias branches='git branch --sort=-committerdate'
+function compush () {
+  git add . && git commit -am "$1" --allow-empty-message && git push
+}
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
