@@ -5,6 +5,7 @@ Development environment setup
 * homebrew
 * Node (via nvm)
 * Yarn
+* AWS CLI
 * Visual Studio Code
 * Chrome + Firefox
 * Hyper + zsh
