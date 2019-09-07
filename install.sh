@@ -2,6 +2,7 @@
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 
 brew install yarn
+brew install awscli
 brew install getantibody/tap/antibody
 brew install zsh-autosuggestions
 brew cask install hyper
