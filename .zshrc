@@ -51,3 +51,6 @@ source <(antibody init)
 antibody bundle zdharma/fast-syntax-highlighting
 antibody bundle buonomo/yarn-completion
 antibody bundle zsh-users/zsh-completions
+
+fpath=(~/.zsh/completion $fpath)
+autoload -Uz compinit && compinit -i
