@@ -1,15 +1,16 @@
 # dev-environment
 
-Development environment setup
+Personal development environment setup
 
 * homebrew
+* Hyper + zsh
+* Docker
 * Node (via nvm)
 * Yarn
 * AWS CLI
 * Visual Studio Code
 * Chrome + Firefox
-* Hyper + zsh
 
-```
+```sh
 curl -o- https://raw.githubusercontent.com/jrwebdev/dev-environment/master/install.sh | bash
 ```
