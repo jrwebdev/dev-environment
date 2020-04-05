@@ -8,7 +8,7 @@ Personal development environment setup
 * Node (via nvm)
 * Yarn
 * AWS CLI
-* Visual Studio Code
+* Visual Studio Code (with extensions and settings)
 * Chrome + Firefox
 
 ```sh
