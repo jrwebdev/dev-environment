@@ -1,0 +1,60 @@
+{
+  "workbench.colorTheme": "One Dark Pro",
+  "oneDarkPro.vivid": true,
+  "atomKeymap.promptV3Features": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": true,
+  "editor.fontSize": 13,
+  "editor.tabSize": 2,
+  "editor.emptySelectionClipboard": false,
+  "editor.snippetSuggestions": "top",
+  "editor.accessibilitySupport": "off",
+  "editor.suggestSelection": "first",
+  "editor.minimap.enabled": false,
+  "extensions.ignoreRecommendations": false,
+  "todohighlight.keywords": [
+    {
+      "text": "TODO:",
+      "borderRadius": "3px",
+      "backgroundColor": "rgba(255,255,255,.3)",
+    }
+  ],
+  "workbench.colorCustomizations": {
+    "editorWarning.foreground": "#FFCC00",
+    "editorOverviewRuler.errorForeground": "#FF007F"
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[java]": {
+    "editor.formatOnSave": false
+  },
+  "[jsp]": {
+    "editor.formatOnSave": false
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.preferences.renameShorthandProperties": false,
+  "javascript.preferences.renameShorthandProperties": false,
+  "prettier.singleQuote": true,
+  "prettier.packageManager": "yarn",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+}
