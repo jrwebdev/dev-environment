@@ -14,10 +14,21 @@ brew cask install docker
 curl -o- https://raw.githubusercontent.com/jrwebdev/dev-environment/master/.gitconfig > ~/.gitconfig
 curl -o- https://raw.githubusercontent.com/jrwebdev/dev-environment/master/.zshrc > ~/.zshrc
 curl -o- https://raw.githubusercontent.com/jrwebdev/dev-environment/master/.hyper.js > ~/.hyper.js
+curl -o- https://raw.githubusercontent.com/jrwebdev/dev-environment/master/vscode-settings.json > ~/Library/Application\ Support/Code/User/settings.json
 
 mkdir -p ~/.zsh/completion
 curl -L https://raw.githubusercontent.com/docker/compose/1.25.3/contrib/completion/zsh/_docker-compose > ~/.zsh/completion/_docker-compose
 
 npm install --global pure-prompt
+
+code --install-extension esbenp.prettier-vscode
+code --install-extension ms-vscode.atom-keybindings
+code --install-extension zhuangtongfa.material-theme
+code --install-extension waderyan.gitblame
+code --install-extension andys8.jest-snippets
+code --install-extension ms-azuretools.vscode-docker
+code --install-extension wayou.vscode-todo-highlight
+code --install-extension visualstudioexptteam.vscodeintellicode
+code --install-extension dbaeumer.vscode-eslint
 
 mkdir ~/web
