@@ -21,14 +21,15 @@ curl -L https://raw.githubusercontent.com/docker/compose/1.25.3/contrib/completi
 
 npm install --global pure-prompt
 
-code --install-extension esbenp.prettier-vscode
-code --install-extension ms-vscode.atom-keybindings
-code --install-extension zhuangtongfa.material-theme
-code --install-extension waderyan.gitblame
-code --install-extension andys8.jest-snippets
-code --install-extension ms-azuretools.vscode-docker
-code --install-extension wayou.vscode-todo-highlight
-code --install-extension visualstudioexptteam.vscodeintellicode
-code --install-extension dbaeumer.vscode-eslint
+code \ 
+  --install-extension esbenp.prettier-vscode \
+  --install-extension ms-vscode.atom-keybindings \
+  --install-extension zhuangtongfa.material-theme \
+  --install-extension waderyan.gitblame \
+  --install-extension andys8.jest-snippets \
+  --install-extension ms-azuretools.vscode-docker \
+  --install-extension wayou.vscode-todo-highlight \
+  --install-extension visualstudioexptteam.vscodeintellicode \
+  --install-extension dbaeumer.vscode-eslint
 
 mkdir ~/web
