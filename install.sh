@@ -30,5 +30,7 @@ code --install-extension ms-azuretools.vscode-docker
 code --install-extension wayou.vscode-todo-highlight
 code --install-extension visualstudioexptteam.vscodeintellicode
 code --install-extension dbaeumer.vscode-eslint
+code --install-extension jpoissonnier.vscode-styled-components
+code --install-extension prisma.vscode-graphql
 
 mkdir ~/web
