@@ -4,3 +4,4 @@
   rebase = true
 [alias]
   pl  = !git branch --set-upstream-to=origin/`git symbolic-ref --short HEAD` && git pull
+  cln = !git reset --hard && git clean -f -d
