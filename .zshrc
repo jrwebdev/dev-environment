@@ -23,11 +23,6 @@ alias update='. ~/.zshrc'
 alias config-restore='curl -o- https://raw.githubusercontent.com/jrwebdev/dev-environment/master/.zshrc > ~/.zshrc &&
 curl -o- https://raw.githubusercontent.com/jrwebdev/dev-environment/master/.hyper.js > ~/.hyper.js && update'
 
-alias branches='git branch --sort=-committerdate'
-function compush () {
-  git add . && git commit -am "$1" --allow-empty-message && git push
-}
-
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
