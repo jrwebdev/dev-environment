@@ -5,5 +5,5 @@
 [alias]
   pl  = !git branch --set-upstream-to=origin/`git symbolic-ref --short HEAD` && git pull
   cln = !git reset --hard && git clean -f -d
-  acp = !git add . && git commit -m "$1" $([[ $(git config --get remote.origin.url) == *"jrwebdev"* ]] && echo "--allow-empty-message" || echo "") && git push
+  acp = "!f() { git add . && git commit -m \"$1\" $([[ $(git config --get remote.origin.url) == *'jrwebdev'* ]] && echo '--allow-empty-message' || echo '') && git push; }; f"
   brl = !git branch --sort=-committerdate
