@@ -1,6 +1,6 @@
 # dev-environment
 
-Personal development environment setup
+Development environment setup
 
 * homebrew
 * Hyper + zsh
