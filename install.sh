@@ -12,6 +12,7 @@ brew cask install firefox
 brew cask install docker
 brew install kubectl
 brew install minikube
+brew install helm
 
 curl -o- https://raw.githubusercontent.com/jrwebdev/dev-environment/master/.gitconfig > ~/.gitconfig
 curl -o- https://raw.githubusercontent.com/jrwebdev/dev-environment/master/.zshrc > ~/.zshrc
