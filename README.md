@@ -4,7 +4,7 @@ Personal development environment setup
 
 * homebrew
 * Hyper + zsh
-* Docker
+* Docker + Kubernetes
 * Node (via nvm)
 * Yarn
 * AWS CLI
