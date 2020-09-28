@@ -14,6 +14,8 @@ brew install kubectl
 brew install minikube
 brew install helm
 
+helm repo add stable https://kubernetes-charts.storage.googleapis.com
+
 curl -o- https://raw.githubusercontent.com/jrwebdev/dev-environment/master/.gitconfig > ~/.gitconfig
 curl -o- https://raw.githubusercontent.com/jrwebdev/dev-environment/master/.zshrc > ~/.zshrc
 curl -o- https://raw.githubusercontent.com/jrwebdev/dev-environment/master/.hyper.js > ~/.hyper.js
