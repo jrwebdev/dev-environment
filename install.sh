@@ -37,5 +37,6 @@ code --install-extension visualstudioexptteam.vscodeintellicode
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension jpoissonnier.vscode-styled-components
 code --install-extension prisma.vscode-graphql
+code --install-extension octoref.vetur
 
 mkdir ~/web
