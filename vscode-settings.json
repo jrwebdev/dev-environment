@@ -17,7 +17,7 @@
     {
       "text": "TODO:",
       "borderRadius": "3px",
-      "backgroundColor": "rgba(255,255,255,.3)",
+      "backgroundColor": "rgba(255,255,255,.3)"
     }
   ],
   "workbench.colorCustomizations": {
@@ -25,6 +25,8 @@
     "editorOverviewRuler.errorForeground": "#FF007F"
   },
   "eslint.validate": [
+    "vue",
+    "html",
     "javascript",
     "javascriptreact",
     "typescript",
@@ -57,4 +59,18 @@
   "prettier.singleQuote": true,
   "prettier.packageManager": "yarn",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "vetur.dev.vlsPath": "/Users/james/.config/yarn/global/node_modules/vls",
+  "vetur.experimental.templateInterpolationService": true,
+  "vetur.dev.vlsPort": 7123,
+  "debug.javascript.codelens.npmScripts": "never",
+  "window.zoomLevel": 0,
+  "gitlens.currentLine.enabled": false,
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.codeLens.enabled": false,
+  "gitlens.views.repositories.branches.layout": "list",
+  "todohighlight.isEnable": true,
+  "editor.renderWhitespace": "none"
 }
