@@ -38,5 +38,7 @@ code --install-extension dbaeumer.vscode-eslint
 code --install-extension jpoissonnier.vscode-styled-components
 code --install-extension prisma.vscode-graphql
 code --install-extension octoref.vetur
+code --install-extension formulahendry.auto-rename-tag
+code --install-extension formulahendry.auto-close-tag
 
 mkdir ~/web
