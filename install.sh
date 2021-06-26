@@ -40,5 +40,6 @@ code --install-extension prisma.vscode-graphql
 code --install-extension octoref.vetur
 code --install-extension formulahendry.auto-rename-tag
 code --install-extension formulahendry.auto-close-tag
+code --install-extension csstools.postcss
 
 mkdir ~/web
